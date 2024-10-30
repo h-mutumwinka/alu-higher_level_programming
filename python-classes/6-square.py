@@ -4,7 +4,7 @@ class Square:
     """Represents a square Attributes"""
     def __init__(self, size=0, position=(0, 0)):
         """initializes the square Args:size of a side of the square Returns None"""
-        self.size = size
+        self.__size = size
         self.position = position
 
     def area(self):

@@ -16,6 +16,12 @@ class Square:
 
         else:
             self.__size = value
+    def size (self):
+        """getter of __size
+        Returns:
+            The size of the square
+        """
+        return self.__size
 
     def __init__(self, size=0):
 

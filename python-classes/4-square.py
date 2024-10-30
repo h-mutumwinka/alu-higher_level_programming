@@ -1,7 +1,15 @@
 #!/usr/bin/python3
-""" access and update the private attributes"""
+""" Define a class Square"""
 class Square:
-   """ define class square attributes"""
+   """ Represent  class square attributes"""
+
+    def __init__(self, size=0):
+    """ initializing size of square"""
+        self.size = size
+
+    def area(self):
+    """ return area of calculated square"""
+        return (self.__size) ** 2
     def size(self, value):
 
     """ showing attributes of square class """
@@ -21,13 +29,4 @@ class Square:
         Returns:
             The size of the square
         """
-        return self.__size
-
-    def __init__(self, size=0):
-
-    """ initializing size of square"""
-        self.size = size
-
-    def area(self):
-    """ return area of calculated square"""
-        return (self.__size) ** 2
+        return self.__size              

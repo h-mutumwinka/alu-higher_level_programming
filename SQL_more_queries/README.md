@@ -1,1 +1,1 @@
- this is a more sql querries
+ this is querry language
